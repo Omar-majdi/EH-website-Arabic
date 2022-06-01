@@ -19,3 +19,9 @@
   font-size: 16px;
   text-align: right;
 }
+
+.edugate-content {
+  display: table-cell;
+  vertical-align: top;
+  text-align: right;
+}

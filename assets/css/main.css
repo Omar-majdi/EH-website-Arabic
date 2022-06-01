@@ -8315,6 +8315,10 @@ h5 {
     line-height: 20px;
   }
 
+  .hidden {
+    display: none;
+  }
+
   .profile-teacher .profile-teacher-wrapper .teacher-info {
     display: inline-block;
     text-align: center;
