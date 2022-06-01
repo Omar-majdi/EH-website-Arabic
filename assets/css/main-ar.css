@@ -2,3 +2,20 @@
   margin-right: 5px;
   transition: all 0.2s linear;
 }
+
+.title-2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  text-align: right;
+}
+
+.why-choose-us .why-choose-us-wrapper-top .why-choose-us-wrapper p {
+  color: #d1d8eb;
+  line-height: 25px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-align: right;
+}
