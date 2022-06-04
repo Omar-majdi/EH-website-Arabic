@@ -25,3 +25,31 @@
   vertical-align: top;
   text-align: right;
 }
+/* Add this class to make the direction of an element RTL */
+.direction {
+  direction: rtl;
+}
+
+@media screen and (max-width: 480px) {
+  blockquote {
+    padding-left: 10px;
+    margin: 20px 20px 10px 20px;
+  }
+}
+
+blockquote:before {
+  position: absolute;
+  content: '\f10e';
+  font-family: 'FontAwesome';
+  top: 5px;
+  right: 0;
+  font-size: 30px;
+  color: #90a1ae;
+}
+
+blockquote .main-quote {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+  padding-right: 35px;
+}
